@@ -1,7 +1,7 @@
 
 
 # Parent Class
-class Boat:
+class NeckyBoats:
     model = 'Unknown'
     length = 22
     color =  'Black'
@@ -12,8 +12,12 @@ class Boat:
         x = "\nModel: {}\nLength: {}\nColor: {}\nPropultion: {}".format(self.model,self.length,self.color,self.propultion,self.price)
         return x
 
+    def details(self):
+        x = "\nNecky Boats are the most reliable in the water!"
+        return x
+
 # Child Class 1 -- Inherits parent class properties plus
-class SpeedBoat(Boat):
+class SpeedBoat(NeckyBoats):
     model = 'hurricane'
     length = 22
     color = 'blue' #child class overrides parent class color
@@ -22,12 +26,12 @@ class SpeedBoat(Boat):
     engine = 'Honda 4-stroke'
     swim_platform = True
 
-    def speed(self): # Defines a method for child class 1
+    def details(self): # Defines a method for child class 1
         x = "\nHits 60 in 6 seconds and is perfect to get where you need to go with time to spare!"
         return x
 
 # Child Class 2 --Inherits parent properties plus
-class Kayak(Boat):
+class Kayak(NeckyBoats):
     model = 'Chatham'
     length = 17 # Child class overrides parent class length
     color = 'yellow' # Child class overrides parent class color
@@ -37,17 +41,18 @@ class Kayak(Boat):
     skeg = True
     max_capacity = 350
 
-    def paddle(self): # Defines a method for child class 2
+    def details(self): # Defines a method for child class 2
         x = "\nEasily glides through the water with effortless paddling!"
         return x
 
 if __name__ == "__main__":
     speedboat = SpeedBoat()  
     print(speedboat.information())
-    print(speedboat.speed())
+    print(speedboat.details())
+   
 
     kayak = Kayak()
     print(kayak.information())
-    print(kayak.paddle())
+    print(kayak.details())
     
 
