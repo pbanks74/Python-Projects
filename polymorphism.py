@@ -3,9 +3,9 @@
 # Parent Class
 class Boat:
     model = 'Unknown'
-    length = 'Unknown'
-    color =  'Unknown'
-    propultion = 'Unknown'
+    length = 22
+    color =  'Black'
+    propultion = 'gas engine'
     price = 'Unknown'
 
     def information(self): # Defines a method for parent class
@@ -16,7 +16,7 @@ class Boat:
 class SpeedBoat(Boat):
     model = 'hurricane'
     length = 22
-    color = 'blue'
+    color = 'blue' #child class overrides parent class color
     propultion = 'gas engine'
     price = 80000
     engine = 'Honda 4-stroke'
@@ -29,9 +29,9 @@ class SpeedBoat(Boat):
 # Child Class 2 --Inherits parent properties plus
 class Kayak(Boat):
     model = 'Chatham'
-    length = 17
-    color = 'yellow'
-    propultion = 'paddle'
+    length = 17 # Child class overrides parent class length
+    color = 'yellow' # Child class overrides parent class color
+    propultion = 'paddle'  # Child class overrides parent class propultion
     price = 2000
     rudder = False
     skeg = True
