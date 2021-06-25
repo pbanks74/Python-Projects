@@ -28,16 +28,16 @@ class ParentWindow(Frame):
 
 
 
-    def submit(self) :
+    def submit(self) : # defines submit button
         f = open("webpage_generator.html", "w")    # Creates file if doesn't exist
-        f.write(self.txtEntry.get())   # Adds data to file
+        f.write(self.txtEntry.get())   # Sets user input as the body of the webpage 
         f.close()                                                                  
 
-        webbrowser.open_new_tab("webpage_generator.html")
+        webbrowser.open_new_tab("webpage_generator.html") # Opens webpage in new browser tab
 
        
-    def cancel(self) :
-        self.master.destroy()
+    def cancel(self) : #defines cancel button
+        self.master.destroy() #closes gui
 
 
 
