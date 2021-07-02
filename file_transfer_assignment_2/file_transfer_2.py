@@ -50,17 +50,19 @@ class ParentWindow(Frame):
     def copy(self) :
         #set where the source of the files are
         source = self.sourceEntry.get()
-        fileList = os.listdir()
-        #set the destination path
         destination = self.desEntry.get()
-        # we are saying move the files to thier new destination
-        shutil.move(source, destination)
+        files = os.listdir(source)
+       
+        for i in files :
+            dirpath = os.path.join(source, i) # creates a new variable
+            # moving the files represented by 'i' to thier new destination
+            shutil.move(dirpath, destination)
+          
+            
         
     def cancel(self) :
         self.master.destroy()
     
-
-        
 
 if __name__ == "__main__":
     root = Tk()
