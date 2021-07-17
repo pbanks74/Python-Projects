@@ -5,7 +5,7 @@ A few basic projects written in Python while navigating through The Tech Academy
 ## Projects
 
 * [Check Files GUI](https://github.com/pbanks74/Python-Projects/blob/main/file_transfer_assignment_2/file_transfer_2.py)
-* [Phonebook]()
+* [Phonebook](https://github.com/pbanks74/Python-Projects/tree/main/phonebook_app)
 
 ### Check Files GUI
 Program allows the user to choose transfer all .txt files from one chosen directory to another. All files that are moved will be saved in a database.
