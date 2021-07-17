@@ -11,4 +11,4 @@ A few basic projects written in Python while navigating through The Tech Academy
 Program allows the user to choose transfer all .txt files from one chosen directory to another. All files that are moved will be saved in a database.
 
 ### Phonebook
-This program functions asa phonebook for users. It saves a contact's name, phone number, and email address in a database and allows the user to update and delete previously stored entries.
+This program functions as a phonebook for users. It saves a contact's name, phone number, and email address in a database and allows the user to update and delete previously stored entries.
