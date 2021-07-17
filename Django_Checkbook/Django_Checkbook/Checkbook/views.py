@@ -21,11 +21,11 @@ def create_account(request):
 
 def balance(request, pk):
     account = get_object_or_404(Account, pk=pk)
-    transactions = Transaction.Transactions.filter(account = pk)
+    transactions = Transaction.Transactions.filter(account=pk)
     current_total = account.initial_deposit
-    table_contents = { }
+    table_contents = {}
     for t in transactions:
-        if t.type =='Deposit':
+        if t.type == 'Deposit':
             current_total += t.amount
             table_contents.update({t: current_total})
         else:
@@ -43,4 +43,4 @@ def transaction(request):
             form.save()
             return balance(request, pk)
     content = {'form': form}
-    return render(request, 'checkbook/AddTransaction.html')
+    return render(request, 'checkbook/AddTransaction.html', content)
