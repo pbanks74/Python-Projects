@@ -6,7 +6,7 @@ A few projects created in Python while navigating through The Tech Academy's cou
 
 * [Check Files GUI](https://github.com/pbanks74/Python-Projects/blob/main/file_transfer_assignment_2/file_transfer_2.py)
 * [Phonebook](https://github.com/pbanks74/Python-Projects/tree/main/phonebook_app)
-* [Checkbook]()
+* [Checkbook](https://github.com/pbanks74/Python-Projects/tree/main/Django_Checkbook)
 
 ### Check Files GUI
 Created using Python and tkinter, this program allows the user to choose a source directory and a destination directory. All files in the source directory that have been created or modified within the past 24 hours are transfered and saved in a database.
