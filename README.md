@@ -1,6 +1,6 @@
 # Python Projects
 
-A few basic projects written in Python while navigating through The Tech Academy's Python course. They use various modules such as tkinter and/or sqlite3.
+A few projects created in Python while navigating through The Tech Academy's course. They use various modules such as tkinter and/or sqlite3.
 
 ## Projects
 
@@ -8,7 +8,7 @@ A few basic projects written in Python while navigating through The Tech Academy
 * [Phonebook](https://github.com/pbanks74/Python-Projects/tree/main/phonebook_app)
 
 ### Check Files GUI
-Program allows the user to choose transfer all .txt files from one chosen directory to another. All files that are moved will be saved in a database.
+Created using Python and tkinter, this program allows the user to choose a source directory and a destination directory. All files in the source directory that have been created or modified within the past 24 hours are transfered and saved in a database.
 
 ### Phonebook
 This program functions as a phonebook for users. It saves a contact's name, phone number, and email address in a database and allows the user to update and delete previously stored entries.
