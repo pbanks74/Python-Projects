@@ -8,6 +8,7 @@ The Tech Academy's Python Course was a large focus and one of my favorites. It c
 * [Phonebook](https://github.com/pbanks74/Python-Projects/tree/main/phonebook_app)
 * [Checkbook](https://github.com/pbanks74/Python-Projects/tree/main/Django_Checkbook)
 * [Django University](https://github.com/pbanks74/Python-Projects/tree/main/DjangoUniversity)
+* [Mean or Nice Game](https://github.com/pbanks74/Python-Projects/blob/main/mean_nice_game.py)
 
 ### Check Files GUI
 Created using Python and tkinter, this program allows the user to choose a source directory and a destination directory. All files in the source directory that have been created or modified within the past 24 hours are transfered and saved in a database.
@@ -20,6 +21,9 @@ Web application created using the Django framework that allows users to create a
 
 ### Django University
 Web Application created using Django framework with basic CRUD functionality that allows users to create profiles and specify what courses they are enrolled in.
+
+### Mean or Nice Game
+Demonstrates how to pass variables from function to function while producing a functional game.
 
 ## Conclusion
 
