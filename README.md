@@ -27,4 +27,4 @@ Demonstrates how to pass variables from function to function while producing a f
 
 ## Conclusion
 
-The Tech Academy's Python Course taught me Python basics and how to utilize the Django framework to create dynamic applications while strengthening my understanding of Object-oriented programming.
+The Tech Academy's Python Course taught me Python basics and how to utilize the Django framework to create dynamic applications while strengthening my understanding of Object-oriented programming. Completing this course gives me absolute confidence in applying the skills learned to positively influence a company's operations and future goals. 
