@@ -1,6 +1,6 @@
 # Python Projects
 
-A few projects created in Python while navigating through The Tech Academy's course. They use various modules such as tkinter and/or sqlite3.
+The Tech Academy's Python Course was a large focus and one of my favorites. It consisted of many assignments and projects covering Python basics, OOP, Django framework, SQL, modules and database management. Highlighted below are a few projects I created in Python while navigating through The Tech Academy's course.
 
 ## Projects
 
@@ -16,3 +16,7 @@ This program functions as a phonebook for users. It saves a contact's name, phon
 
 ### Checkbook
 Web application created using the Django framework that allows users to create a profile and declare a starting balance. Application calculates transactions and keeps track of users current balance. Utilizes sqlite to store user info in a database.
+
+## Conclusion
+
+The Tech Academy's Python Course taught me Python basics and how to utilize the Django framework to create dynamic applications while strengthening my understanding of Object-oriented programming.
